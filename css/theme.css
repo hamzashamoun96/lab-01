@@ -1,54 +1,84 @@
-@media (max-width:768px){
+@media (min-width:769px){
     #a{
         border: 1px solid black;
         border-bottom:0px;
-        background: darkblue;
+        background: #000080;
     }
     #b{
 
         border: 1px solid black;
-        border-bottom:0px;
-        background: darkgreen;
-    }#c , #d{
+        background: #0000ff;
+    }
+    
+    #c , #d{
         border: 1px solid black;
+        border-left: 0px;
         border-bottom: 0px;
-    }
-    #c{
-        background: darkmagenta;
-    }
-    #d{
-        background:darkorange;
+        background: #008080;
     }
     
     #e ,#f , #g , #h{
         border: 1px solid black;
         border-bottom: 0px;
-        background: darkred;
+        border-left:0px;
+        background: #7fffd4;
     }
-    #e , #g{
-        border-right:0px;
-    }
-
     #i{
         border: 1px solid black;
-        background: purple;
+        border-left: 0px;
+        background: #000080;
     }
 }
 
-@media (min-width:768px){
+@media (max-width:480px){
     #a{
         border: 1px solid black;
         border-bottom:0px;
-        background: darkblue;
+        background: #b8860b;
+    }
+    #b{
+        border: 1px solid black;
+        border-bottom:0px;
+        background: #ff8c00;
+    }#c,#d{
+        border: 1px solid black;
+        border-bottom: 0px;
+        background:#ffd700;
+    }
+    
+ 
+    #e,#f,#g,#h{
+        border: 1px solid black;
+        border-bottom: 0px;
+        border-right:0px;
+        background: #daa520;
+    }
+    #h{
+        border-right: 1px solid black;
+    }
+    #f{
+        border-right: 1px solid black;
+    }
+    #i{
+        border: 1px solid black;
+        background: #b8860b;
+    }
+}
+
+@media (max-width:768px) and (min-width:480px){
+    #a{
+        border: 1px solid black;
+        border-bottom:0px;
+        background: #8b0000;
     }
     #b{
         border: 1px solid black;
         border-right:0px;
-        background: darkgreen;
+        background: #dc143c;
     }#c,#d{
         border: 1px solid black;
         border-bottom: 0px;
-        background:darkorange;
+        background:#a52a2a;
     }
     #d{
         border-left: 0px;
@@ -58,13 +88,16 @@
         border: 1px solid black;
         border-bottom: 0px;
         border-right:0px;
-        background: darkred;
+        background: #e9967a;
+    }
+    #f{
+        border-right: 1px solid black;
     }
     #h{
         border-right: 1px solid black;
     }
     #i{
         border: 1px solid black;
-        background: purple;
+        background: #8b0000;
     }
 }
